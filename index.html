@@ -181,6 +181,28 @@
             <textarea name="userComments" id="comments"></textarea>
           </fieldset>
 
+          <fieldset>
+            <legend>Confirmações</legend>
+            <input
+              type="checkbox"
+              value="accepted"
+              name="userLgpd"
+              id="userLgpdTerm"
+              required
+            />
+            <label for="userLgpdTerm"
+              >Eu aceito participar dessa pesquisa</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              name="userGetResult"
+              id="getResult"
+              value="accepted"
+            />
+            <label for="getResult">Desejo receber o resultado por email</label>
+          </fieldset>
+
           <button type="submit">Enviar</button>
           <button type="reset">Limpar</button>
         </form>
