@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="culturama-favico.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Pesquisa Culturama</title>
   </head>
   <body>
     <main>
       <header>
+        <img src="/assets/logo-culturama.png" alt="Logomarca Culturama" />
         <h1>Pesquisa - Culturama</h1>
       </header>
 
@@ -37,8 +46,8 @@
               type="email"
               name="userEmail"
               id="email"
-              required
               placeholder="usuario@usuario.com"
+              required
             />
             <br />
 
@@ -49,6 +58,7 @@
               pattern="[0-9]{11}"
               placeholder="DDD + Nº sem espaços e hífens"
               id="phone"
+              required
             />
             <br />
 
@@ -163,6 +173,7 @@
 
           <fieldset>
             <legend>Opinião</legend>
+            <p>O que você acha da qualidade do nosso serviço?</p>
             <input type="radio" name="userOpinion" id="great" value="otimo" />
             <label for="great">Ótima</label>
             <input type="radio" name="userOpinion" id="good" value="boa" />
