@@ -52,6 +52,11 @@ label {
   margin-bottom: 5px;
 }
 
+p {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
 input,
 select,
 textarea {
@@ -74,4 +79,32 @@ input[type="checkbox"] {
 input[type="color"] {
   width: 40px;
   padding: 0 5px;
+}
+
+input[type="text"]:invalid,
+input[type="number"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+#state:invalid {
+  border-color: #a50b0b;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #008a00;
+  color: #ffffff;
+}
+
+button[type="reset"]:hover {
+  background-color: #a50b0b;
+  color: #ffffff;
 }
