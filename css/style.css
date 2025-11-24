@@ -108,3 +108,21 @@ button[type="reset"]:hover {
   background-color: #a50b0b;
   color: #ffffff;
 }
+
+html,
+.body2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enviado {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
